@@ -1,24 +1,45 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Пример приложения Ruby on Rails Tutorial
 
-Things you may want to cover:
+Это пример приложения для
+[*Учебник по Ruby on Rails:
+Изучите веб-разработку с помощью Rails*](https://www.railstutorial.org/)
+[Майкл Хартл] (https://www.michaelhartl.com/).
 
-* Ruby version
+## Лицензия
 
-* System dependencies
+Весь исходный код в [Учебнике по Ruby on Rails](https://www.railstutorial.org/)
+доступен совместно по лицензии MIT и лицензии Beerware. Видеть
+[LICENSE.md](LICENSE.md) для получения подробной информации.
 
-* Configuration
+## Начиная
 
-* Database creation
+Чтобы начать работу с приложением, клонируйте репозиторий, а затем установите необходимые драгоценные камни:
 
-* Database initialization
+```
+$ сборщик установки gem -v 2.3.11
+$ bundle _2.3.11_ config set --local без 'production'
+$ пакет _2.3.11_ установить
+```
 
-* How to run the test suite
+Затем выполните миграцию базы данных:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ рельсы БД: миграция
+```
 
-* Deployment instructions
+Наконец, запустите набор тестов, чтобы убедиться, что все работает правильно:
 
-* ...
+```
+$ рельсы тест
+```
+
+Если набор тестов пройден, вы будете готовы запустить приложение на локальном сервере:
+
+```
+$ рельсовый сервер
+```
+
+Для получения дополнительной информации см.
+[*Книга учебника по Ruby on Rails*] (https://www.railstutorial.org/book).

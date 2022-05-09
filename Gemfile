@@ -41,7 +41,15 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+
+gem "image_processing"
+gem "active_storage_validators"
+gem "bcrypt"
+gem "faker"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
+gem "bootstrap-sass"
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -70,6 +78,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
   gem "minitest"
+  gem "rails-controller-testing"
+  gem "minitest-reporters"
+  gem "guard"
+  gem "guard-minitest"
 end
 
 group :production do

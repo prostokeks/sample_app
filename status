@@ -1,0 +1,29 @@
+[33mcommit 3a5369b41fe01744e254c6d88e427c0c0109616e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: prostokeks <tov.camz@gmail.com>
+Date:   Sun May 8 16:03:53 2022 +0300
+
+    finish static pages
+
+[33mcommit 7fe9442f88f9ab6c6e00fecc947830458b0bb814[m
+Author: prostokeks <tov.camz@gmail.com>
+Date:   Sun May 8 09:28:32 2022 +0300
+
+    Add controler Static pages
+
+[33mcommit 421e45c2f56d1c27e3f19b6c348cd406d615727c[m[33m ([m[1;31mheroku/main[m[33m)[m
+Author: prostokeks <tov.camz@gmail.com>
+Date:   Sun May 8 09:16:32 2022 +0300
+
+    Add hello
+
+[33mcommit ffc8d7bf0d412c899965ca54db1f457b6a3ecec0[m
+Author: prostokeks <tov.camz@gmail.com>
+Date:   Sun May 8 09:12:07 2022 +0300
+
+    change README
+
+[33mcommit 74f361bfd01ae8ce1d08984b30edd97c86a3e0e1[m
+Author: prostokeks <tov.camz@gmail.com>
+Date:   Sun May 8 09:08:06 2022 +0300
+
+    first save

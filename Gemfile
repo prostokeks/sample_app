@@ -43,7 +43,7 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 
 gem "image_processing"
-gem "active_storage_validators"
+gem "active_storage_validations"
 gem "bcrypt"
 gem "faker"
 gem "will_paginate"
